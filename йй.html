@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<script type="text/javascript">
+function toggle_show(id) {
+	document.getElementById(id).style.display = document.getElementById(id).style.display == 'none' ? 'block' : 'none';
+}
+</script>
+</head>
+<body>
+
+<ul>
+	<li>Пункт 1</li>
+	<li onClick="toggle_show('bla-bla2')">Пункт 2
+		<ul id="bla-bla2" style="display: none">
+			<li>Хоба</li>
+			<li>в рот мне ноги</li>
+			<li>да он ебаный волшебник</li>
+		</ul>
+	</li>
+	<li>Пункт 3</li>
+</ul>
+
+</body>
+</html>
